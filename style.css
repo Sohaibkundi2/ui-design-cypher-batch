@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.main{
+    padding: 6vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left{
+    font-size: 4vw;
+    width: 40%;
+}
+
+.right-p-1{
+    background-color: #45DE46;
+    text-transform: uppercase;
+    padding: 15px;
+}
+.right-center{
+    display: flex;
+    gap: 3vw;
+}
+.right-center h1{
+    font-size: 5vw;
+}
+
+.right-p-2{
+    color: #575757;
+    font-size: small;
+    padding: 2vw 0;
+}
+
+button{
+    padding: .7vw 1vw ;
+    border-radius: 20px;
+    border-color: #575757;
+    color: #575757;
+}
+
+@media (max-width:900px) {
+    .main{
+        flex-direction: column;
+        text-align: center;
+    }
+    .left{
+        font-size: 6vw;
+        width: 50%;
+        margin-bottom: 5vh;
+        font-weight: 600;
+    }
+
+    .right-center h1{
+        font-size: 6vw;
+    }
+    .right-p-2{
+        color: #575757;
+        font-size: small;
+        padding: 3vw 0;
+    }
+    
+    button{
+        padding: .9vw 1.2vw ;
+        border-radius: 20px;
+    }
+    button{
+        padding: .9vw 1.2vw ;
+    }
+}
+@media (max-width:500px) {
+    .right-center{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .left{
+        font-size: 8vw;
+        width: 40%;
+        margin-bottom: 5vh;
+    }
+    .right-center h1{
+        font-size: 8vw;
+    }
+    .right-p-2{
+        color: #575757;
+        font-size: small;
+        padding: 4vw 0;
+    }
+    
+    button{
+        padding: .9vw 1.4vw ;
+        border-radius: 20px;
+    }
+    button{
+        padding: 1vw 1.3vw ;
+    }
+}
+@media (max-width:450px) {
+    .left{
+        font-size: 11vw;
+        width: 60%;
+        margin-bottom: 5vh;
+    }
+    .right-center h1{
+        font-size: 11vw;
+        margin-top: 2vh;
+    }
+}
+@media (max-width:450px) {
+    .left{
+        font-size: 11vw;
+        width: 60%;
+    }
+    .right-center h1{
+        font-size: 15vw;
+        margin-top: 1vw;
+    }
+}
